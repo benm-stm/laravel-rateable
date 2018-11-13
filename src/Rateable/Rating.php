@@ -10,7 +10,7 @@ class Rating extends Model
      *
      * @var array
      */
-    public $fillable = ['rating', 'rated_element_id'];
+    public $fillable = ['rating', 'rated_element_id', 'comment'];
 
     /**
      * @return mixed
